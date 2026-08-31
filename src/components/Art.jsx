@@ -1,7 +1,6 @@
 import gsap from 'gsap';
 import { useMediaQuery } from 'react-responsive'
 import { useGSAP } from '@gsap/react'
-import { ScrollTrigger } from 'gsap/all';
 import { featureLists, goodLists } from '../constants/index.js'
 
 const Art = () => {

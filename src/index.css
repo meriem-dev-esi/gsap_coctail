@@ -84,10 +84,6 @@ body {
         }
     }
 
-    .noisy {
-        @apply absolute inset-0 size-full bg-[url("/images/noise.png")];
-    }
-
     #hero {
         @apply relative z-10 min-h-dvh w-full border border-transparent;
 
@@ -223,11 +219,7 @@ body {
             }
 
             img {
-<<<<<<< HEAD
-                @apply object-contain w-full h-full;
-=======
                 @apply object-cover w-full h-full;
->>>>>>> 0f25429068d65a0c585d634fbca266c7f0f170f8
             }
         }
 
@@ -239,11 +231,7 @@ body {
             }
 
             img {
-<<<<<<< HEAD
-                @apply object-contain w-full h-full;
-=======
                 @apply object-cover w-full h-full;
->>>>>>> 0f25429068d65a0c585d634fbca266c7f0f170f8
             }
         }
     }
@@ -252,11 +240,7 @@ body {
         @apply flex-center flex-col min-h-dvh p-5 mt-20 relative radial-gradient;
 
         h2 {
-<<<<<<< HEAD
-            @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-serif text-center text-white mb-8;
-=======
             @apply relative md:text-[20vw] text-8xl text-nowrap leading-none font-modern-negra text-center text-[#505050] mb-8;
->>>>>>> 0f25429068d65a0c585d634fbca266c7f0f170f8
         }
 
         .content {
@@ -264,24 +248,12 @@ body {
         }
 
         .cocktail-img {
-<<<<<<< HEAD
-            @apply md:w-[40vw] w-[60vw] h-[40vh] md:h-[50vh] rounded-4xl overflow-hidden mx-auto;
-
-            img {
-                @apply w-full h-full object-contain shadow-[0_0_30px_rgba(255,255,255,0.2)];
-            }
-=======
             @apply md:w-[60vw] w-full h-[50vh] md:h-[70vh] rounded-4xl overflow-hidden absolute top-0 md:top-1/2 md:-translate-y-1/2 left-1/2 -translate-x-1/2;
->>>>>>> 0f25429068d65a0c585d634fbca266c7f0f170f8
         }
 
         .masked-container {
             h2 {
-<<<<<<< HEAD
-                @apply text-6xl md:text-8xl font-serif text-center mb-10 text-white mt-32 drop-shadow-2xl;
-=======
                 @apply text-4xl md:text-5xl font-modern-negra text-center mb-10 text-white mt-32;
->>>>>>> 0f25429068d65a0c585d634fbca266c7f0f170f8
             }
 
             div {

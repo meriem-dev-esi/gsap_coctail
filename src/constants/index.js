@@ -92,9 +92,9 @@ export const openingHours = [
 ];
 
 export const socials = [
-    { name: "Instagram", url: "#", icon: "/images/instagram.png" },
-    { name: "Twitter", url: "#", icon: "/images/twitter.png" },
-    { name: "Facebook", url: "#", icon: "/images/facebook.png" },
+    { name: "Instagram", url: "#", icon: "/images/insta.png" },
+    { name: "Twitter", url: "#", icon: "/images/x.png" },
+    { name: "Facebook", url: "#", icon: "/images/fb.png" },
 ];
 
 export const allCocktails = [
